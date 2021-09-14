@@ -1,0 +1,174 @@
+*{
+	margin: o;
+	padding: 0;
+	box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+	font-family: 'Glory', sans-serif;
+	font-size: 16px;
+	color: #3b506c;
+	line-height: 1.7;
+}
+img{
+	max-width: 100%;
+	display: block;
+}
+a, a:hover{
+	text-decoration: none;
+	color: #0c66ff;
+}
+
+header{
+    border-bottom: 2px solid #3b506c2e;
+    padding: 5px 0px;
+}
+.container{
+	width: calc(100% - 200px);
+	margin: auto;
+	/* background-color: #e8e8e8; */
+}
+.flex{
+	display: flex;
+    flex-wrap: wrap;
+}
+.flex-end{
+	justify-content: flex-end;
+}
+.align-center{
+	align-items: center;
+}
+.logo{
+    flex-basis: 15%;
+}
+.logo img{
+	display: block;
+}
+nav{
+    flex-basis: 85%;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{}
+nav ul li a{
+	font-size: 17px;
+	color: #3b506c;
+	padding: 2px 12px;
+	display: block;
+	transition: all 0.5s ease;
+	border-radius: 25px;
+}
+nav ul li a:hover{
+	color: #fff;
+	background-color: #3b506c;
+}
+nav ul li a.download{
+	color: #fff;
+	background-color: #3b506c;
+}
+.about-section{
+
+text-align: center;
+
+padding: 80px 0px;
+}
+.container-sm{
+	max-width: 1000px;
+	margin: auto;
+}
+h1{
+	font-size: 50px;
+	line-height: 67px;
+}
+h1 span{
+    display: block;
+    color: #008aff;
+}
+p{
+    font-size: 18px;
+}
+.about-section img{
+    max-width: 571px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+
+
+.sucess-section{
+
+}
+.col{
+    flex-basis: 50%;
+    padding: 12px;
+}
+.col h1{}
+.text-right{
+    text-align: right;
+}
+.text-right h1{
+	color: #ff4242;
+	margin-bottom: 0px;
+}
+.text-right p{
+    font-size: 21px;
+}
+
+
+
+.col-3{
+	flex-basis: 33.33%;
+	padding: 30px;
+}
+.feature{
+	/* background-color: #d3d3ff; */
+	padding: 40px;
+	border-radius: 20px;
+	box-shadow: 3px 3px 1px 0px;
+}
+.feature img{
+	height: 225px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+.feature h2{}
+.feature p{}
+
+
+.colour1{
+	background: #ff634752;
+}
+.colour2
+{
+	background: #5cc9a747;
+}
+.colour3{
+	background: #f8bf3059;
+}
+
+footer{
+	text-align: center;
+	background-color: #0c66ffb8;
+	padding: 5px;
+	width: 1887px;
+	margin-top: 50px;
+}
+footer p{
+	font-size: 15px;
+	color: #fff;
+}
+footer p strong{
+	font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
